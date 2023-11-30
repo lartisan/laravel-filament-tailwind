@@ -21,3 +21,13 @@ exit;
 ```bash
 php artisan migrate:fresh --seed
 ```
+
+## Add first Filament Panel
+```bash
+php artisan filament:install --panels
+```
+
+## Create a user
+```bash
+php artisan make:filament-user
+```
